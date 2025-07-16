@@ -14,5 +14,13 @@
 </head>
 <body>
   <h1>This is GA4 Test Site A</h1>
+
+  <script>
+  gtag('event', 'visited_from_b', {
+    event_category: 'testing',
+    event_label: document.referrer
+  });
+</script>
+
 </body>
 </html>
